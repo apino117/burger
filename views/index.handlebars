@@ -1,0 +1,21 @@
+<h1>Consume! This Particular! Burger!</h1>
+
+<h2>Burgers!!!</h2>
+
+<ul>
+  {{#each burgers}}
+  <li>#{{this.id}}: {{this.burger_name}}</li>
+  {{/each}}
+</ul>
+
+<h2>Add a Burger</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="burger">Burger Name:</label>
+    <input type="text" id="burger-name" name="name">
+  </div>
+
+
+  <button type="submit">Add Burger</button>
+</form>
