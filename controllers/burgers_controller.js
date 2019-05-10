@@ -16,11 +16,11 @@ router.get("/", function (req, res) {
     });
 });
 
-// router.post("/api/cats", function (req, res) {
-//     cat.create([
-//         "name", "sleepy"
+// router.post("/", function (req, res) {
+//     burger.create([
+//         "burger_name"
 //     ], [
-//             req.body.name, req.body.sleepy
+//             req.body.burger_name
 //         ], function (result) {
 //             // Send back the ID of the new quote
 //             res.json({ id: result.insertId });
