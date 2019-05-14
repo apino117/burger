@@ -37,7 +37,7 @@
         <div class="col-6" id="devoured-burgers">
           <h2>Burgers that have been Devoured:</h2>
 
-          <ul>
+          <ul id="devoured-burgers">
             {{#each burgers}}
             {{#if devoured}}
             {{> burgers/burger-block devoured=false}}

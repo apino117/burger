@@ -26,6 +26,10 @@ ul {
     list-style-position: inside;
 }
 
+#devoured-burgers {
+    color: grey;
+}
+
 h1 {
     font-family: 'Modak', cursive;
     /* Nice */
