@@ -16,6 +16,6 @@ PRINCIPALS OF REST WE'LL USE:
 5) Burger gets put into the devour section
 
 TO DO:
-1) Get button up next to burger 
-2) Get the submit form button to work
+1) Get button up next to burger √
+2) Get the submit form button to work √
 3) Get the devour button to work
