@@ -1,3 +1,15 @@
-#header-row {
+/* -------- ROWS ---------- */
+
+.row {
+    justify-content: center;
+}
+
+/* -------- COLUMNS ----------  */
+
+.col-12 {
     text-align: center;
+}
+
+ul {
+    list-style-position: inside;
 }
