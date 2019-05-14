@@ -42,6 +42,10 @@ function objToSql(ob) {
     return arr.toString();
 }
 
+
+// ===================================== ORM LAND ===================================== //
+
+
 // Object for all our SQL statement functions.
 var orm = {
 
@@ -112,7 +116,7 @@ var orm = {
     }
 };
 
-// Export the orm object for the model (cat.js).
+// Export the orm object for the model (burger.js).
 module.exports = orm;
 
 
