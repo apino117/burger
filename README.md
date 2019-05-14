@@ -4,6 +4,8 @@ Hi there, and welcome to "Consume! This! Particular! Burger!" hereafter referred
 
 Burger onwards!
 
+![Burger_Gif](/assets/img/burger.gif) 
+
 ## Getting Started
 
 To begin, submit a burger-object in the field and watch the magic!
