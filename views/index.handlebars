@@ -1,13 +1,25 @@
 <h1>Consume! This Particular! Burger!</h1>
 
-<h2>Burgers!!!</h2>
+<h2>Burgers that are not Devoured!</h2>
 
 <ul>
   {{#each burgers}}
-  <li>#{{this.id}}: {{this.burger_name}} <button class="devour-burger" data-id="{{this.id}}">Devour!</button>
-  </li>
+  {{#unless devoured}}
+  {{> burgers/burger-block devoured=true}}
+  {{/unless}}
   {{/each}}
 </ul>
+
+<h2>Burgers that are devoured!</h2>
+
+<ul>
+  {{#each burgers}}
+  {{#if devoured}}
+  {{> burgers/burger-block devoured=false}}
+  {{/if}}
+  {{/each}}
+</ul>
+
 
 <h2>Add a Burger</h2>
 <form class="create-form">

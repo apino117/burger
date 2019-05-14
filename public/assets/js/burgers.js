@@ -33,13 +33,19 @@ $(function () {
 
     $(".devour-burger").on("click", function (event) {
         var id = $(this).data("id");
+        var newDevour = $(this).data("new-devoured");
 
-        // Send the DELETE request.
+        var newDevouredState = {
+            devoured: newDevour
+        };
+
+        // Send the PUT request.
         $.ajax("/api/burgers/" + id, {
-            type: "DELETE"
+            type: "PUT",
+            data: newDevouredState
         }).then(
             function () {
-                console.log("Devoured burger", id);
+                console.log("changed devoured to", newDevour);
                 // Reload the page to get the updated list
                 location.reload();
             }
